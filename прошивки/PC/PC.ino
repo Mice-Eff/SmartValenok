@@ -17,6 +17,7 @@ void setup() {
   Serial.begin(9600);
   Blynk.begin(auth, ssid, pass);
   pinMode(M, OUTPUT);
+  digitalWrite(13,HIGH);  // 5 вольт для реле 
 }
 
 WidgetBridge bridge2(V2); // мост на втором виртуальном пине
