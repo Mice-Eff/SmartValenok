@@ -2,7 +2,7 @@
 #include <SPI.h> // https://github.com/PaulStoffregen/SPI
 #include <ESP8266WiFi.h> // https://github.com/blynkkk/blynk-library/releases/tag/v0.6.1
 #include <BlynkSimpleEsp8266.h>
-#include <SimpleTimer.h>
+#include <SimpleTimer.h> // https://github.com/jfturcot/SimpleTimer
 #define BLYNK_PRINT Serial
 char auth[] = "токен"; //токен устройства 2
 char ssid[] = "сеть";  //название wi-fi
