@@ -7,7 +7,7 @@
 char auth[] = "токен";//токен устройства 1
 char ssid[] = "сеть";  //название wi-fi
 char pass[] = "пароль";  //пароль от wi-fi
-SimpleTimer timer; 
+SimpleTimer timer;
 int motor = 2; // пин куда подлючен мотор
 int vir = V1; // виртуальный пин виртуальной кнопки
 int but = 12; // пин куда подключена кнопка
@@ -40,7 +40,7 @@ void setup(){
 
 void loop(){
    
-  Blynk.run(); 
+  Blynk.run();
   timer.run(); 
  if( digitalRead(but)==HIGH){
   a=1;
